@@ -19,6 +19,8 @@ graphviz (used to covert .dot file to .png file)
 
 ### Usage
 mkdir dots
+
 python3 VisualizeTree-en.py category_name depth cat_tree
+
 dot -Tpng input.dot > output.png
 
