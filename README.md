@@ -15,6 +15,7 @@ python3 categoryTree-en.py category_name depth output_file
 ## Visualize Part
 ### Requirements
 anytree
+
 graphviz (used to covert .dot file to .png file)
 
 ### Usage
