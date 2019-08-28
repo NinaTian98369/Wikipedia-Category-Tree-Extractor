@@ -2,10 +2,10 @@
 Extract wikipedia tree structure from an assigned root word, and visualize the tree structure.
 
 ## Generation Part
-Requirements
+### Requirements
 ============
 wikitools
-Usage
+### Usage
 ===========
 python3 categoryTree-en.py category_name depth output_file
 
@@ -15,12 +15,12 @@ python3 categoryTree-en.py category_name depth output_file
 
 
 ## Visualize Part
-Requirements
+### Requirements
 ============
 anytree
 graphviz (used to covert .dot file to .png file)
 
-Usage
+### Usage
 ===========
 mkdir dots
 python3 VisualizeTree-en.py category_name depth cat_tree
